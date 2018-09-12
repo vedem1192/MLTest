@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		262FB47121496BEC00224480 /* neuralnet-mnist-trained in Resources */ = {isa = PBXBuildFile; fileRef = 262FB47021496BEC00224480 /* neuralnet-mnist-trained */; };
+		262FB47A21496C7600224480 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FB47321496C7600224480 /* Cache.swift */; };
+		262FB47B21496C7600224480 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FB47421496C7600224480 /* Error.swift */; };
+		262FB47C21496C7600224480 /* NeuralNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FB47521496C7600224480 /* NeuralNet.swift */; };
+		262FB47D21496C7600224480 /* Dataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FB47621496C7600224480 /* Dataset.swift */; };
+		262FB47E21496C7600224480 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FB47721496C7600224480 /* Storage.swift */; };
+		262FB47F21496C7600224480 /* Activation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FB47821496C7600224480 /* Activation.swift */; };
+		262FB48021496C7600224480 /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262FB47921496C7600224480 /* Structure.swift */; };
 		26CF359120DB391200171D7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CF359020DB391200171D7D /* AppDelegate.swift */; };
 		26CF359320DB391200171D7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CF359220DB391200171D7D /* ViewController.swift */; };
 		26CF359620DB391200171D7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CF359420DB391200171D7D /* Main.storyboard */; };
 		26CF359B20DB391400171D7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26CF359A20DB391400171D7D /* Assets.xcassets */; };
 		26CF359E20DB391400171D7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CF359C20DB391400171D7D /* LaunchScreen.storyboard */; };
-		26CF35A920DB3B9800171D7D /* VisualSentimentCNN.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 26CF35A820DB3B9800171D7D /* VisualSentimentCNN.mlmodel */; };
-		26CF35AB20DB3BC600171D7D /* GestureAI.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 26CF35AA20DB3BC600171D7D /* GestureAI.mlmodel */; };
-		26CF35AD20DB3BEA00171D7D /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 26CF35AC20DB3BEA00171D7D /* MobileNet.mlmodel */; };
-		26CF35AF20DB3C1E00171D7D /* MNIST.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 26CF35AE20DB3C1E00171D7D /* MNIST.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		262FB47021496BEC00224480 /* neuralnet-mnist-trained */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "neuralnet-mnist-trained"; sourceTree = "<group>"; };
+		262FB47321496C7600224480 /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		262FB47421496C7600224480 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		262FB47521496C7600224480 /* NeuralNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeuralNet.swift; sourceTree = "<group>"; };
+		262FB47621496C7600224480 /* Dataset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dataset.swift; sourceTree = "<group>"; };
+		262FB47721496C7600224480 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		262FB47821496C7600224480 /* Activation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activation.swift; sourceTree = "<group>"; };
+		262FB47921496C7600224480 /* Structure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structure.swift; sourceTree = "<group>"; };
 		26CF358D20DB391200171D7D /* MLTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26CF359020DB391200171D7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26CF359220DB391200171D7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,10 +38,6 @@
 		26CF359A20DB391400171D7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26CF359D20DB391400171D7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26CF359F20DB391400171D7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26CF35A820DB3B9800171D7D /* VisualSentimentCNN.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = VisualSentimentCNN.mlmodel; sourceTree = "<group>"; };
-		26CF35AA20DB3BC600171D7D /* GestureAI.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GestureAI.mlmodel; sourceTree = "<group>"; };
-		26CF35AC20DB3BEA00171D7D /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
-		26CF35AE20DB3C1E00171D7D /* MNIST.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MNIST.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		262FB47221496C2000224480 /* NeuralNet */ = {
+			isa = PBXGroup;
+			children = (
+				262FB47821496C7600224480 /* Activation.swift */,
+				262FB47321496C7600224480 /* Cache.swift */,
+				262FB47621496C7600224480 /* Dataset.swift */,
+				262FB47421496C7600224480 /* Error.swift */,
+				262FB47521496C7600224480 /* NeuralNet.swift */,
+				262FB47721496C7600224480 /* Storage.swift */,
+				262FB47921496C7600224480 /* Structure.swift */,
+			);
+			path = NeuralNet;
+			sourceTree = "<group>";
+		};
 		26CF358420DB391200171D7D = {
 			isa = PBXGroup;
 			children = (
@@ -64,19 +86,12 @@
 			children = (
 				26CF359020DB391200171D7D /* AppDelegate.swift */,
 				26CF359220DB391200171D7D /* ViewController.swift */,
+				262FB47221496C2000224480 /* NeuralNet */,
 				26CF35A720DB3A8D00171D7D /* Models */,
-				26CF35A520DB397A00171D7D /* Data Sources */,
 				26CF35A620DB398600171D7D /* Resources */,
 				26CF359F20DB391400171D7D /* Info.plist */,
 			);
 			path = MLTest;
-			sourceTree = "<group>";
-		};
-		26CF35A520DB397A00171D7D /* Data Sources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Data Sources";
 			sourceTree = "<group>";
 		};
 		26CF35A620DB398600171D7D /* Resources */ = {
@@ -92,10 +107,7 @@
 		26CF35A720DB3A8D00171D7D /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				26CF35A820DB3B9800171D7D /* VisualSentimentCNN.mlmodel */,
-				26CF35AA20DB3BC600171D7D /* GestureAI.mlmodel */,
-				26CF35AE20DB3C1E00171D7D /* MNIST.mlmodel */,
-				26CF35AC20DB3BEA00171D7D /* MobileNet.mlmodel */,
+				262FB47021496BEC00224480 /* neuralnet-mnist-trained */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -159,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26CF359E20DB391400171D7D /* LaunchScreen.storyboard in Resources */,
+				262FB47121496BEC00224480 /* neuralnet-mnist-trained in Resources */,
 				26CF359B20DB391400171D7D /* Assets.xcassets in Resources */,
 				26CF359620DB391200171D7D /* Main.storyboard in Resources */,
 			);
@@ -171,11 +184,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26CF35AF20DB3C1E00171D7D /* MNIST.mlmodel in Sources */,
-				26CF35A920DB3B9800171D7D /* VisualSentimentCNN.mlmodel in Sources */,
-				26CF35AD20DB3BEA00171D7D /* MobileNet.mlmodel in Sources */,
+				262FB47D21496C7600224480 /* Dataset.swift in Sources */,
+				262FB47E21496C7600224480 /* Storage.swift in Sources */,
+				262FB48021496C7600224480 /* Structure.swift in Sources */,
+				262FB47B21496C7600224480 /* Error.swift in Sources */,
+				262FB47C21496C7600224480 /* NeuralNet.swift in Sources */,
 				26CF359320DB391200171D7D /* ViewController.swift in Sources */,
-				26CF35AB20DB3BC600171D7D /* GestureAI.mlmodel in Sources */,
+				262FB47F21496C7600224480 /* Activation.swift in Sources */,
+				262FB47A21496C7600224480 /* Cache.swift in Sources */,
 				26CF359120DB391200171D7D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
