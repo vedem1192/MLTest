@@ -2,4 +2,4 @@
 ML Models experimentation
 
 # Thanks
-Thanks to Core ML Store for the models
+Thanks to Swift AI for the trained model
